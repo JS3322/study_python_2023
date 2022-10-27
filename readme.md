@@ -20,4 +20,5 @@ pip install sklearn
 conda install openpyxl  
 pip install folium      
 conda install dash      
-pip install jupyter-dash
+pip install jupyter-dash    
+pip install oracledb
