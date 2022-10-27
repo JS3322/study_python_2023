@@ -10,4 +10,14 @@
 
 [0040] 
 
+[env]   
+jupyter lab
 
+[install]   
+conda install jupyterlab    
+conda install seaborn   
+pip install sklearn     
+conda install openpyxl  
+pip install folium      
+conda install dash      
+pip install jupyter-dash
