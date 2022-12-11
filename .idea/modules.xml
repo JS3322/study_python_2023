@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/code00000000_class_example/code00000000_class_example.iml" filepath="$PROJECT_DIR$/code00000000_class_example/code00000000_class_example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/code20221211_pandas_example/code20221211_pandas_example.iml" filepath="$PROJECT_DIR$/code20221211_pandas_example/code20221211_pandas_example.iml" />
       <module fileurl="file://$PROJECT_DIR$/dash_flask/dash_flask.iml" filepath="$PROJECT_DIR$/dash_flask/dash_flask.iml" />
       <module fileurl="file://$PROJECT_DIR$/ensembleExample/ensembleExample.iml" filepath="$PROJECT_DIR$/ensembleExample/ensembleExample.iml" />
       <module fileurl="file://$PROJECT_DIR$/output_excel/output_excel.iml" filepath="$PROJECT_DIR$/output_excel/output_excel.iml" />
