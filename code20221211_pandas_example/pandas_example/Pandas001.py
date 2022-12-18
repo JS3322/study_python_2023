@@ -1,8 +1,15 @@
+"""
+link :
+pandas class
+"""
+
 import math
 
 
 class Pandas001:
-
+    """
+    pandas 관련 주석
+    """
     def __init__(self, var1, var2):
         self.data001 = math.sqrt(var1)
         self.data002 = math.sqrt(var2)
