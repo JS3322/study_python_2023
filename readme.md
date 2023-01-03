@@ -1,6 +1,6 @@
 ### TASK
 ---
 [install]
-- pip freeze > requirements.txt
-- pip install -r requirements.txt
+- pip3 freeze > requirements.txt
+- pip3 install -r requirements.txt
 
