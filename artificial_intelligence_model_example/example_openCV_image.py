@@ -1,10 +1,13 @@
 # openCV로 이미지 분석
 
+# conda install openCV
 import cv2, sys
 from matplotlib import pyplot as plt
 import numpy as np
+# rgb 값은 3차원배열이므로 numpy
 
 image = cv2.imread('sample_image.jpg')
+# cv2.IMREAD_GRAYSCALE : 머신러닝 분석 시 X,y로 분석 = 2차원(흑백으로 구분)
 image_gray = cv2.imread('sample_image.jpg', cv2.IMREAD_GRAYSCALE)
 # cv2.IMREAD_GRAYSCALE : 흑백 이미지로 load
 
@@ -20,7 +23,6 @@ image2 = cv2.merge([r, g, b])
 # # window로 띄우기
 # cv2.imshow('image', image)
 # cv2.imshow('image_gray', image_gray)
-#
 # cv2.waitKey(0)
 # cv2.destroyAllWindows()
 
@@ -73,7 +75,7 @@ for i in range(len(contours_xy)):
         x_max = max(value)
 print(x_min)
 print(x_max)
-
+#
 # y의 min과 max 찾기
 y_min, y_max = 0, 0
 value = list()
@@ -84,7 +86,7 @@ for i in range(len(contours_xy)):
         y_max = max(value)
 print(y_min)
 print(y_max)
-
+#
 # image trim 하기
 x = x_min
 y = y_min
@@ -93,7 +95,7 @@ h = y_max-y_min
 img_trim = image[y:y+h, x:x+w]
 cv2.imwrite('org_trim.jpg', img_trim)
 org_image = cv2.imread('org_trim.jpg')
-
-# cv2.imshow('org_image', org_image)
-# cv2.waitKey(0)
-# cv2.destroyAllWindows()
+#
+cv2.imshow('org_image', org_image)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
